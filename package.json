@@ -1,0 +1,30 @@
+{
+  "name": "huobibot",
+  "version": "1.0.0",
+  "description": "货币自动交易机器人",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aokihu/huobibot.git"
+  },
+  "keywords": [
+    "huobi",
+    "robot",
+    "bitcoin",
+    "litecoin"
+  ],
+  "author": "aokihu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aokihu/huobibot/issues"
+  },
+  "homepage": "https://github.com/aokihu/huobibot#readme",
+  "dependencies": {
+    "bluebird": "^3.4.7",
+    "huobi": "github:aokihu/huobi",
+    "numjs": "^0.12.3"
+  }
+}
